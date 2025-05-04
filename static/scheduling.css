@@ -1,0 +1,77 @@
+body{
+    font-family: Arial;
+    /* background-color: #F1FADA; */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left : 250px;
+    /* margin-top: 1.5rem !important */
+    /* justify-content: center; */
+
+}
+
+.form-scheduling{
+   margin-top: -140px; 
+}
+h1{
+    font-size: 48px;
+    color:black;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    color:black;
+    font-size: large;
+    font-family: Arial;
+
+}
+
+input[type="date"],
+input[type="time"]{
+    width:800px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-left: 100px;
+    border:1px solid #ccc;
+}
+
+.save,.cancel{
+    background-color:black;
+    color:white;
+    width:100px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 100px;
+    border:none;
+    cursor:pointer;
+}
+.cancel{
+    margin-left:20px;
+}
+.save:hover{
+    opacity:0.5;
+}
+.cancel:hover{
+    opacity: 0.5;
+}
+/* Add the following styles to the existing CSS code */
+
+.close-button {
+    background-color:black;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.close-button:hover {
+    opacity: 0.5;
+}

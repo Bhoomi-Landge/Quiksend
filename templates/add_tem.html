@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add_temp</title>
+</head>
+<body>
+    <form action="/add_template" method="POST" enctype="multipart/form-data">
+    <label for="template_name">Template Name:</label>
+    <input type="text" name="template_name" id="template_name">
+    <label for="purpose">Purpose:</label>
+    <input type="text" name="purpose" id="purpose">
+    <label for="industry">Industry:</label>
+    <input type="text" name="industry" id="industry">
+    <label for="style">Style:</label>
+    <input type="text" name="style" id="style">
+    <label for="content">content:</label>
+    <input type="text" name="content" id="content">
+    <!-- {% if status %}
+    <p class="error">{{status}}</p>
+    {% endif%} -->
+    <button>Submit</button>
+</form>
+</body>
+</html>

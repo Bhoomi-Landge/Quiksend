@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height:500px;
+  }
+  
+  .close-sign {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  
+  }
+  
+  .close-sign:before,
+  .close-sign:after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background-color: black;
+  }
+  
+  .close-sign:before {
+    transform: rotate(45deg);
+  }
+  
+  .close-sign:after {
+    transform: rotate(-45deg);
+  }
+  
+  .close-sign:before,
+  .close-sign:after {
+    top: 5px;
+   left: 380px;
+  }
+  
+  .img{
+    width:30px;
+    height:28px;
+  }
+  
+  .sign_up {
+    max-width: 400px;
+    height:450px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 20px;;
+  }
+  
+  h1,h2{
+    text-align: center;
+    color:black;
+    font-family:arial;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label{
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom:10px;
+    color:black;
+    font-family: arial;
+  }
+  
+  input[type="email"],
+  input[type="password"]{
+    width:380px;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button{
+    background-color: black;
+    width:100px;
+    padding:10px;
+    margin-left:140px;
+    border:none;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+  }
+  .button:hover{
+  opacity:0.3;
+  }
+  
+  .back{
+    color:black;
+    margin-left:125px;
+    font-weight:100;
+    font-size: 20px;
+  }
+  .log{
+    color:blue;
+    font-weight: bold;
+    cursor:pointer;
+  }
+  .lok{
+    background-color: black;
+    color:white;
+    width: 100px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+     
+    margin-left:160px;
+  }

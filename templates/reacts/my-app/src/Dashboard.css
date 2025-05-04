@@ -1,0 +1,121 @@
+/* Container styling */
+.container {
+    display: flex;
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    width: 200px;
+    background-color: #3d4fb5;
+    color: white;
+    min-height: 100vh;
+    padding: 20px 10px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar-header {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .sidebar-content {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Menu buttons (aligned vertically) */
+  .menu-button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #3d4fb5;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .menu-button:hover {
+    background-color: #495057;
+    border-radius: 4px;
+  }
+  
+  /* Submenu items */
+  .submenu {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  .submenu li {
+    padding: 5px 0;
+  }
+  
+  .submenu a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+  }
+  
+  .submenu a:hover {
+    background-color: #495057;
+    border-radius: 4px;
+  }
+  
+  /* Dashboard content styling */
+  .dashboard-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-left: 1px solid #ddd;
+  }
+  
+  .header {
+    justify-content: flex-start;
+    font-size: 30px;
+    display: flex;
+    color: #3d4fb5;
+  }
+  
+  /* Top header */
+  .top-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-top: 0px;
+  }
+  
+  .profile-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .profile-button img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Content area */
+  .content-area {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    min-height: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

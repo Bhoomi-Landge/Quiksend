@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height:500px;
+  }
+  
+  .login-container {
+    max-width: 400px;
+    height:450px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+    border-radius: 20px;;
+  }
+  
+  .img{
+    width:30px;
+    height:28px; 
+  }
+  h2,h1 {
+    text-align: center;
+    color:black;
+    font-weight: bolder;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom:10px;
+    color:black;
+    
+    /* color:blueviolet; */
+     
+  }
+  
+  .forgot{
+    color:black;
+    text-decoration: underline;
+    cursor:pointer;
+  }
+  input[type="email"],
+  input[type="password"] {
+    width: 380px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .lok {
+     width: 100px;
+    padding: 10px;
+    background-color:black;
+    color:white;
+   
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+     
+    margin-left:135px;
+    
+    
+  }
+  .button{
+    background-color: black;
+    width:100px;
+    padding:10px;
+    margin-left:140px;
+    border:none;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+  }
+  
+  button:hover {
+    opacity:0.4;
+  }
+  
+  .sign{
+    color:blue;
+    cursor: pointer;
+  }
+  .si{
+    color:black;
+    font-family: arial;
+    font-weight: lighter;
+    padding-left: 100px;
+  }
+  

@@ -1,0 +1,40 @@
+body{
+    font-family: Arial;
+     background-color: #F1FADA; 
+    background-color: white;
+     display: flex;
+    /* align-items: center; */
+    /* justify-content: center;  */
+    /* height: 700px; */
+    margin-left: 280px;
+
+} 
+
+/* .close-button{
+    background-color:rgb(21, 21, 109);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 100px;
+} */
+h1{
+    font-size:50px;
+    color:black;
+    margin-top:80px;
+    margin-left: -10px;
+}
+.options{
+    width:700px;
+}
+p{
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: black;
+    font-family: arial;
+    font-size: large;
+
+}

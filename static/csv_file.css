@@ -1,0 +1,55 @@
+body{
+    font-family: Arial;
+     background-color: #F1FADA; 
+    background-color: white;
+     display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 280px; 
+
+} 
+
+.close-button{
+    background-color:black;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+h1{
+    font-size:50px;
+    color:black;
+    margin-top: -30px;
+}
+.options{
+    width:200px;
+}
+p{
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: black;
+    font-family: arial;
+    margin-bottom: 10px;
+}
+input{
+    margin-left:10px;
+   
+}
+.filename{
+    width: 800px;
+    border:1px solid #ccc;
+    height:300px;
+}
+.import{
+    background-color: black;
+    width:100px;
+    height: 35px;
+    border: none;
+    cursor:pointer;
+    border-radius:4px;
+    color:white;
+}

@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.dropdown-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left:280px;
+    
+
+}
+.dropdown {
+    width: 30%;
+    margin: 0 10px;
+}
+.email-templates {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 280px;
+}
+.template {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.templatet{
+    width:95%;
+
+}

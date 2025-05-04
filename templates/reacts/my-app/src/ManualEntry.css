@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #3d4fb5; /* Grey color for the sidebar */
+    color: #ffffff;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .sidebar-header {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  .menu-button a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .menu-button a:hover {
+    text-decoration: underline;
+  }
+  
+  .manual-entry-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .form-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .text, .email {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .import {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .import:hover {
+    background-color: #0056b3;
+  }
+  
+  .cancel {
+    background-color: #6c757d;
+  }
+  
+  .cancel:hover {
+    background-color: #5a6268;
+  }
+  

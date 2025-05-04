@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.dropdown-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left:280px;
+    
+
+}
+.dropdown {
+    width: 30%;
+    margin: 0 10px;
+}
+.email-templates {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 280px;
+}
+.template {
+    width: 320px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.templatet{
+    width:95%;
+    height:300px;
+
+}
+.but{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.click{
+    
+    background-color: black;
+    color:white;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:solid black 0px;
+    font-family: sans-serif;
+    border-radius: 15px;
+    margin-left:20px;
+}
+.match{
+    margin-left: 295px;
+}

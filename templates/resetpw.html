@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Password</title>
+    <link rel="stylesheet" href="/static/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1><img class="img" src="https://openclipart.org/image/800px/313833"> QuikSend</h1>
+        <h2>Reset Password</h2>
+        <form action="/reset" method="POST">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+              {% if check %}
+              <p>{{check}}</p>
+              {% endif %}
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" name="password" >
+              <br><br>
+              <button class="button">Submit</button>
+            </div>
+    </div>
+</body>
+</html>

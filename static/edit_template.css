@@ -1,0 +1,55 @@
+style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    .editor-container {
+        display: flex;
+        height: calc(100% - 60px); /* Subtracting header height */
+        margin-left:250px;
+        margin-top:60px;
+    }
+    .left-panel {
+        width: 70%;
+        padding: 20px;
+        border-right: 1px solid #ccc;
+        box-sizing: border-box;
+        overflow-y: auto;
+    }
+    .right-panel {
+        width: 400px;
+        padding: 20px;
+        box-sizing: border-box;
+        overflow-y: auto;
+    }
+    .editing-buttons button {
+        margin-bottom: 10px;
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .editing-buttons button:hover {
+        background-color: #555;
+    }
+    .editable-template {
+        min-height: 100%;
+        border: 1px solid #ccc;
+        padding: 20px;
+    }
+    .edit{
+        width:85%;
+        margin-left:60px;
+    }

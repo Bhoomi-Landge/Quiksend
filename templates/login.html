@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='login.css')}}">
+
+</head>
+<body>
+  <div class="login-container">
+    <h1><img class="img" src="https://openclipart.org/image/800px/313833"> QuikSend</h1>
+    <h2>Login</h2>
+    {% if error %}
+    <p>{{ error }}</p>  <!-- Display error message if it exists -->
+    {% endif %}
+    <form action="/login" method="POST">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" name="password" required>
+      </div>
+      <a  href="/reset">Forgot Password?</a>
+      <br>
+      <button type="submit" class="button" >Login</button>
+      <!-- <a class="lok" role="button" aria-disabled="true" href="/dashboard">Login</a> -->
+      
+      <div class="account"  >
+        <p class="si">Don't have account?<a href="/register" class="sign" >signup</a></p>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
+
+
