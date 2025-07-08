@@ -7,7 +7,7 @@
 ## 🔧 Built With
 
 - **Frontend:** HTML, CSS  
-- **Backend:** Python (Flask)  
+- **Backend:** Python (Flask)   
 - **Templating:** Jinja2  
 - **Mailing:** SMTP (via Flask-Mail or similar)
 
